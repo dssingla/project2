@@ -1,0 +1,142 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar ul li a:hover {
+    color: #ffdd57;
+}
+
+/* Main content styling */
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+}
+
+header {
+    background-color: #ffdd57;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+/* Section and card layout */
+section {
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    background-color: #f4f4f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.metrics-container {
+    display: flex;
+    gap: 20px;
+}
+
+.metric {
+    background-color: #f4f4f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.metric h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Admin and restaurant management */
+.admin-actions, .restaurant-actions {
+    margin-bottom: 20px;
+}
+
+.admin-actions button, .restaurant-actions button {
+    background-color: #ffdd57;
+    color: #333;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.admin-actions button:hover, .restaurant-actions button:hover {
+    background-color: #f4b932;
+}
+
+.admin-list ul, .restaurant-list ul {
+    list-style-type: none;
+}
+
+.admin-list li, .restaurant-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
